@@ -11,10 +11,12 @@ To implement and evaluate a Decision Tree model to classify tumors as benign or 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+```
+Import the dataset and preprocess the data (handle missing values and encode labels).
+Split the dataset into training and testing sets.
+Train the Decision Tree model using the training data.
+Test the model and evaluate its accuracy for tumor classification.
+``` 
 
 ## Program:
 ```
@@ -72,12 +74,12 @@ DecisionTreeClassifier()
 y_pred=model.predict(X_test)
 ​
 accuracy=accuracy_score(y_test,y_pred)
-print("Name: rubika m")
+print("Name: roopika m")
 print("Register Number: 212225040348")
 print("Accuracy:",accuracy)
 print("Classification Report:\n",classification_report(y_test,y_pred))
 ​
-Name: rubika m
+Name: roopika m
 Register Number: 212225040348
 Accuracy: 0.9079497907949791
 Classification Report:
